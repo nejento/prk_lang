@@ -8,16 +8,5 @@ Vymyslete si rozšíření jazyka, jenž slouží k definici algebraických oper
 Co odevzdávám?
 Slovní popis jazyka s příklady - udělejte formou readme v projektu v gitlabu.
 
-### Operace
-- součet +
-- součin *
-- modulo %
-
-### Datové typy
-- Int
-- Float
-- Bool
-
-
 ---
 
