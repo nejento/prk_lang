@@ -31,11 +31,17 @@
 > 
 > b 10
 
-#### String
-- "a-zA-Z0-9 "
+#### String: "a-zA-Z0-9 "
+*Validní:*
+> 
 
 #### Komentář
 - #! Text !#
 
 ---
+### Operace
+**Sčítání**
 
+**Násobení**
+
+**Modulo**
