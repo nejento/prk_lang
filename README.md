@@ -1,6 +1,6 @@
 ### Datové typy
-#### Int
-**Decimal: 0-9**
+### Int: 0-9**
+Pouze kladná čísla
 
 *Validní:*
 > 1
