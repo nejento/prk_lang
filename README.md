@@ -1,5 +1,5 @@
 ### Datové typy
-### Int: 0-9**
+### Int: 0-9
 Pouze kladná čísla
 
 *Validní:*
