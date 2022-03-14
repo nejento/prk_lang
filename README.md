@@ -46,6 +46,6 @@ Pouze kladná čísla
 
 ### Priority
 -   Výrazy v závorkách mají nejvyšší prioritu
--   ***** (násobení) > **+** (sčítání)
+-   **\*** (násobení) > **+** (sčítání)
 -   **+** (sčítání) = **%** (modulo)
 
