@@ -1,3 +1,4 @@
+
 ### Datové typy
 #### Int: 0-9
 Pouze kladná čísla
@@ -27,7 +28,7 @@ Pouze kladná čísla
 | Validní        | Nevalidní     |
 |----------------|---------------|
 | #! Poznamka !# | #!Poznamka #! |
-| #!Poznamka!#   | #!Poznamka #! |
+| #!Poznamka!#   | #! Poznamka#! |
 | #! 101 !#      | !# 12 #!      |
 | #!101!#        | #! ! !#       |
 | #!!#           | #! % !#       |
@@ -36,16 +37,79 @@ Pouze kladná čísla
 ---
 
 ### Operace
-**Sčítání**
+#### Zadané prvky
+#### **+** sčítání
 
-**Násobení**
+V případě sčítání dvou stringů dojde k jejich konkatenaci
 
-**Modulo**
+| Vstup            | Výstup        |
+|------------------|---------------|
+| 2+2              | 4             |
+| b01+b101         | b110          |
+| "Bota"+"Ponožka" | "BotaPonožka" |
+| 2+b01            | *chyba*       |
+| b01+2            | *chyba*       |
+| "Brambor"+2      | *chyba*       |
+
+#### **\*** násobení
+
+V případě násobení stringu a čísla dojde ke konkatenaci N stringů
+
+| Vstup             | Výstup        |
+|-------------------|---------------|
+| 2\*2              | 4             |
+| b01\*b101         | b101          |
+| "Bota"\*"Ponožka" | *chyba*       |
+| "Bota"\*2         | "BotaBota"    |
+| 2\*b01            | *chyba*       |
+| "Brambor"\*b01    | *chyba*       |
+
+#### **(** a **)** začátek a konec závorky
+
+| Vstup             | Výstup        |
+|-------------------|---------------|
+| (2)               | 2             |
+| (2+2)             | 4             |
+| (2+3)\*2          | 10            |
+| (2\*3)+2          | 8             |
+| 2+(2\*3)          | 8             |
+| (2\*(2+3))+1      | 11            |
+
+#### Prvek navíc
+#### **%** modulo
+
+| Vstup             | Výstup        |
+|-------------------|---------------|
+| 10%3              | 1             |
+| 3%4               | 3             |
+| 3%0               | *chyba*       |
+| 0%3               | 0             |
+
+---
+
+### Funkce
+#### **bindec(bin)**
+
+Převod binárního čísla na desítkové
+
+| Vstup             | Výstup        |
+|-------------------|---------------|
+| bindec(b101)      | 5             |
+| bindec(10)        | *chyba*       |
+
+#### **decbin(dec)**
+
+Převod desítkového čísla na binární
+
+| Vstup             | Výstup        |
+|-------------------|---------------|
+| decbin(5)         | b101          |
+| decbin(b101)      | *chyba*       |
 
 ---
 
 ### Priority
--   Výrazy v závorkách mají nejvyšší prioritu
--   **\*** (násobení) > **+** (sčítání)
--   **+** (sčítání) = **%** (modulo)
+- Výrazy v závorkách mají nejvyšší prioritu
+- **\*** (násobení) > **+** (sčítání)
+- **+** (sčítání) = **%** (modulo)
 
