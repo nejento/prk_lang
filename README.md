@@ -27,15 +27,16 @@ Pouze kladná čísla
 | "%"            |           |
 | "'Ahoj'"       |           |
 
-#### Komentář: #! a-zA-Z0-9 !#
+#### Komentář: #! Znaky kromě vykřičníku a hashe !#
 | Validní        | Nevalidní     |
 |----------------|---------------|
 | #! Poznamka !# | #!Poznamka #! |
 | #!Poznamka!#   | #! Poznamka#! |
 | #! 101 !#      | !# 12 #!      |
 | #!101!#        | #! ! !#       |
-| #!!#           | #! % !#       |
+| #!!#           |               |
 | #! !#          |               |
+| #! % !#        |               |
 
 ---
 
