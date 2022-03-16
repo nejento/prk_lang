@@ -17,13 +17,15 @@ Pouze kladná čísla
 | b101    | b20       |
 |         | b 10      |
 
-#### String: "a-zA-Z0-9"
+#### String: "Znaky kromě dvojité uvozovky"
 | Validní        | Nevalidní |
 |----------------|-----------|
 | "Ahoj"         | 'Ahoj'    |
-| "101"          | "Štěně"   |
-| "Ahoj svete"   | "%"       |
-| " "            | "'Ahoj'"  |
+| "101"          | """       |
+| "Ahoj svete"   |           |
+| " "            |           |
+| "%"            |           |
+| "'Ahoj'"       |           |
 
 #### Komentář: #! a-zA-Z0-9 !#
 | Validní        | Nevalidní     |
