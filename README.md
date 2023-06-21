@@ -130,8 +130,8 @@ Převod desítkového čísla na furry (furryeorva transformace)
 
 | Vstup             | Výstup        |
 |-------------------|---------------|
-| fur(5)            | fLev          |
-| fur(b101)         | *chyba*       |
+| furry(5)          | fLev          |
+| furry(b101)       | *chyba*       |
 
 ---
 
