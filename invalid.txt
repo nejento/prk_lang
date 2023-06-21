@@ -17,3 +17,7 @@ b20
 B01
 01
 001
+Vlk
+fvlk
+furry(Vlk)
+furry(fVlk)

@@ -1,4 +1,4 @@
-# nLang
+# furLang
 ### Datové typy
 #### Int: 0-9
 Pouze kladná čísla
@@ -37,6 +37,20 @@ Pouze kladná čísla
 | #!!#           |               |
 | #! !#          |               |
 | #! % !#        |               |
+
+#### Furry: fZvire
+| Validní        | Nevalidní     |
+|----------------|---------------|
+| fPes           | Pes           |
+| fKočka         | fkočka        |
+| fMýval         | fzmýval       |
+| fVlk           |               |
+| fLiška         |               |
+| fLev           |               |
+| fDrak          |               |
+| fJelen         |               |
+| fKůň           |               |
+| fProtogen      |               |
 
 ---
 
@@ -109,6 +123,15 @@ Převod desítkového čísla na binární
 |-------------------|---------------|
 | decbin(5)         | b101          |
 | decbin(b101)      | *chyba*       |
+
+#### **fur(dec)**
+
+Převod desítkového čísla na furry (furryeorva transformace)
+
+| Vstup             | Výstup        |
+|-------------------|---------------|
+| fur(5)            | fLev          |
+| fur(b101)         | *chyba*       |
 
 ---
 
